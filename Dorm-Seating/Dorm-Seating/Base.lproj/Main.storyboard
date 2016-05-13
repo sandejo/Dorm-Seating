@@ -63,10 +63,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbn-wD-Wlp">
                                 <rect key="frame" x="281" y="245" width="38" height="30"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginTapped:" destination="tpZ-oR-BIC" eventType="touchUpInside" id="rCh-Vg-sOC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UL7-7W-Ivl">
                                 <rect key="frame" x="276" y="327" width="48" height="30"/>
                                 <state key="normal" title="Signup"/>
+                                <connections>
+                                    <action selector="signupTapped:" destination="tpZ-oR-BIC" eventType="touchUpInside" id="JiX-GG-eHs"/>
+                                </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="skJ-eO-epW">
                                 <rect key="frame" x="290" y="403" width="20" height="20"/>

@@ -11,7 +11,7 @@ import Foundation
 class TableSelector {
     
     let tables: [Table]
-    let students: [Student]
+    var students: [Student]
     
     init (tables: [Table], students: [Student]) {
         self.tables = tables
@@ -19,9 +19,18 @@ class TableSelector {
     }
     
     func placeStudent(studentIndex: Int, tableIndex: Int) {
+        if students.count == 0 {
+            return
+        }
+        if tableIndex >= tables.count {
+            placeStudent(studentIndex, tableIndex: 0)
+        } else if studentIndex >= students.count {
+            placeStudent(0, tableIndex: tableIndex)
+        }
         if !tables[tableIndex].isFull() {
             if students[studentIndex].repetitivity(tables[tableIndex].students) == 0 {
                 tables[tableIndex].addStudent(students[studentIndex])
+                students.removeAtIndex(studentIndex)
             } else {
                 placeStudent(studentIndex + 1, tableIndex: tableIndex)
             }
@@ -29,7 +38,7 @@ class TableSelector {
             placeStudent(studentIndex, tableIndex: tableIndex + 1)
         }
     }
-    
+    /*
     func arrangeStudents() -> Int { // use recursive backtracking
         var index = 0
         var error = 0
@@ -54,5 +63,5 @@ class TableSelector {
             }
         }
         return error
-    }
+    } */
 }

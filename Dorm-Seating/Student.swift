@@ -14,7 +14,7 @@ class Student: BAAObject {
     var previousTableMates: [Student] = []
     
     override init(dictionary: [NSObject : AnyObject]!) {
-        self.name = dictionary["name"] as! String
+        self.name = dictionary["name"]! as! String
         
         super.init(dictionary: dictionary)
     }

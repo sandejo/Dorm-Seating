@@ -11,16 +11,12 @@ import Foundation
 class Table {
     
     let facultyName: String
-    let facultyNumber: Int
-    let totalSeats: Int
     var students: [Student] = []
     let openSeats: Int
     
-    init (facultyName: String, facultyNumber: Int, totalSeats: Int) {
+    init (facultyName: String, openSeats: Int) {
         self.facultyName = facultyName
-        self.facultyNumber = facultyNumber
-        self.totalSeats = totalSeats
-        self.openSeats = totalSeats - facultyNumber
+        self.openSeats = openSeats
     }
     
     func addStudent(student: Student) {
