@@ -13,6 +13,7 @@ class Table {
     let facultyName: String
     var students: [Student] = []
     let openSeats: Int
+    var seatingArrangements: [[Student]] = []
     
     init (facultyName: String, openSeats: Int) {
         self.facultyName = facultyName
@@ -32,14 +33,26 @@ class Table {
         }
     }
     
-    func clear() {
+    func saveSeating() {
+        seatingArrangements.append(students)
+    }
+    
+    func printArrangement(seatingArrangement: Int) {
+        for student in seatingArrangements[seatingArrangement] {
+            print(student.name)
+        }
+    }
+    
+    func clear() -> Student {
+        let student: Student = students[0]
         for person in students {
-            if person.name != students[0].name {
+            if person != students[0] {
                 students[0].addTableMate(person)
                 person.addTableMate(students[0])
             }
         }
         students.removeAtIndex(0)
+        return student
     }
     
     

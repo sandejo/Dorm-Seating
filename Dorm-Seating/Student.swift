@@ -27,7 +27,7 @@ class Student: BAAObject {
         var repetition = 0
         for student in students {
             for person in previousTableMates {
-                if student.name == person.name {
+                if student == person {
                     repetition++
                 }
             }
@@ -36,7 +36,7 @@ class Student: BAAObject {
     }
 
     override func collectionName() -> String! {
-        return "documents/dormStudents"
+        return "document/dormStudents"
     }
     
 }

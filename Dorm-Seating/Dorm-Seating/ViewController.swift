@@ -10,6 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var adamTable: UILabel!
+    @IBOutlet weak var kenTable: UILabel!
+    @IBOutlet weak var aimeeTable: UILabel!
+    @IBOutlet weak var kristinTable: UILabel!
+    @IBOutlet weak var benTable: UILabel!
+    @IBOutlet weak var meghanTable: UILabel!
+    @IBOutlet weak var brianTable: UILabel!
+    @IBOutlet weak var michelleTable: UILabel!
+    @IBOutlet weak var joeTable: UILabel!
+    @IBOutlet weak var priceTable: UILabel!
+    @IBOutlet weak var julieTable: UILabel!
+    @IBOutlet weak var tonyTable: UILabel!
+    
     var students: [Student] = []
     var tables: [Table] = []
 
@@ -44,20 +57,33 @@ class ViewController: UIViewController {
         Student.getObjectsWithCompletion( {(students: [AnyObject]!, error: NSError!) -> () in
             if error == nil { // checks for errors in loading the questions
                 self.students = students as! [Student]
+                let selector = TableSelector(tables: self.tables, students: self.students)
+                
+                selector.placeStudent(0, tableIndex: 0)
+                for table in self.tables {
+                    print(table.facultyName)
+                    for student in table.students {
+                        print(student.name)
+                    }
+                }
+                selector.clearTables()
+                selector.placeStudent(0, tableIndex: 0)
+                for table in self.tables {
+                    print(table.facultyName)
+                    for student in table.students {
+                        print(student.name)
+                    }
+                    table.printArrangement(0)
+                }
             } else {
                 print("error loading students")
+                print(error)
             }
         })
         
-        let selector = TableSelector(tables: tables, students: students)
         
-        selector.placeStudent(0, tableIndex: 0)
-        
-        for table in tables {
-            for student in table.students {
-                print(student.name)
-            }
-        }
+    
+    
     }
 
     override func didReceiveMemoryWarning() {
