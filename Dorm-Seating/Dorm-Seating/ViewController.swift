@@ -58,32 +58,38 @@ class ViewController: UIViewController {
             if error == nil { // checks for errors in loading the questions
                 self.students = students as! [Student]
                 let selector = TableSelector(tables: self.tables, students: self.students)
+                var x = 0
+                while x < 2 {
+                    selector.placeStudent(0, tableIndex: 0)
+                    for table in self.tables {
+                        print(table.facultyName)
+                        for student in table.students {
+                            print(student.name)
+                        }
+                    }
+                    selector.clearTables()
+                    x += 1
+                }
+                                
                 
-                selector.placeStudent(0, tableIndex: 0)
-                for table in self.tables {
-                    print(table.facultyName)
-                    for student in table.students {
-                        print(student.name)
-                    }
-                }
-                selector.clearTables()
-                selector.placeStudent(0, tableIndex: 0)
-                for table in self.tables {
-                    print(table.facultyName)
-                    for student in table.students {
-                        print(student.name)
-                    }
-                    table.printArrangement(0)
-                }
+                print("\(students.count)")
+                self.adamTable.text = adam.getArrangement(0)
+                self.kenTable.text = ken.getArrangement(0)
+                self.aimeeTable.text = aimee.getArrangement(0)
+                self.kristinTable.text = kristin.getArrangement(0)
+                self.benTable.text = ben.getArrangement(0)
+                self.meghanTable.text = meghan.getArrangement(0)
+                self.brianTable.text = brian.getArrangement(0)
+                self.michelleTable.text = michelle.getArrangement(0)
+                
+                
+                
             } else {
                 print("error loading students")
                 print(error)
             }
         })
         
-        
-    
-    
     }
 
     override func didReceiveMemoryWarning() {
@@ -104,8 +110,9 @@ class ViewController: UIViewController {
         if !client.isAuthenticated() { // checks that the user is logged in
             navigationController?.performSegueWithIdentifier("showLogin", sender: nil)
         }
+        
+
     }
 
 
 }
-

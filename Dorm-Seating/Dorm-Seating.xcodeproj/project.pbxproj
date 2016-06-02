@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4252481C1CFF0A820011ADD9 /* DateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4252481B1CFF0A820011ADD9 /* DateRange.swift */; };
 		425D78BF1CE357BA00F40492 /* LoginViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425D78BE1CE357BA00F40492 /* LoginViewController copy.swift */; };
 		42B11DCE1C85FD500063F3A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B11DCD1C85FD500063F3A5 /* AppDelegate.swift */; };
 		42B11DD01C85FD500063F3A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B11DCF1C85FD500063F3A5 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4252481B1CFF0A820011ADD9 /* DateRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateRange.swift; sourceTree = "<group>"; };
 		425D78BE1CE357BA00F40492 /* LoginViewController copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginViewController copy.swift"; sourceTree = "<group>"; };
 		42B11DCA1C85FD500063F3A5 /* Dorm-Seating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dorm-Seating.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B11DCD1C85FD500063F3A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				42B11DCD1C85FD500063F3A5 /* AppDelegate.swift */,
 				42B11DCF1C85FD500063F3A5 /* ViewController.swift */,
 				42B11DD11C85FD500063F3A5 /* Main.storyboard */,
+				4252481B1CFF0A820011ADD9 /* DateRange.swift */,
 				42B990A21CD2904300D5354B /* Table.swift */,
 				42B990A41CD2935F00D5354B /* TableSelector.swift */,
 				42B990A01CD28F6200D5354B /* Student.swift */,
@@ -314,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E689991CDD113C002992DE /* BaasBox.m in Sources */,
+				4252481C1CFF0A820011ADD9 /* DateRange.swift in Sources */,
 				42B990A51CD2935F00D5354B /* TableSelector.swift in Sources */,
 				42E689981CDD113C002992DE /* BAAObject.m in Sources */,
 				42B11DD01C85FD500063F3A5 /* ViewController.swift in Sources */,

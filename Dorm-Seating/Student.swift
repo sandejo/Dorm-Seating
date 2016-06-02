@@ -20,7 +20,10 @@ class Student: BAAObject {
     }
     
     func addTableMate(student: Student) {
-        self.previousTableMates.append(student)
+        previousTableMates.append(student)
+        if previousTableMates.count > 20 {
+            previousTableMates.removeAtIndex(20)
+        }
     }
     
     func repetitivity(students: [Student]) -> Int {
@@ -28,7 +31,7 @@ class Student: BAAObject {
         for student in students {
             for person in previousTableMates {
                 if student == person {
-                    repetition++
+                    repetition += 1
                 }
             }
         }

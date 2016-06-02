@@ -37,10 +37,12 @@ class Table {
         seatingArrangements.append(students)
     }
     
-    func printArrangement(seatingArrangement: Int) {
+    func getArrangement(seatingArrangement: Int) -> String {
+        var arrangement = ""
         for student in seatingArrangements[seatingArrangement] {
-            print(student.name)
+            arrangement += "\(student.name)\n"
         }
+        return arrangement
     }
     
     func clear() -> Student {

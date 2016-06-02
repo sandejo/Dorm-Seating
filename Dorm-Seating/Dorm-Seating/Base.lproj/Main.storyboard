@@ -17,176 +17,210 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4g-qv-nf8">
-                                <rect key="frame" x="110" y="353" width="40" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="48" y="440" width="42" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Michelle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkR-xb-ypk">
-                                <rect key="frame" x="268" y="353" width="64" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="175" y="375" width="42" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Julie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axe-3t-FPU">
-                                <rect key="frame" x="282" y="469" width="36" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="175" y="515" width="42" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eim-aq-tYK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Adam" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eim-aq-tYK">
                                 <rect key="frame" x="110" y="124" width="45" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="50" y="182" width="42" height="21"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="49" y="154" width="42" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="204" y="232" width="45" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kristin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTg-Y3-vtG">
-                                <rect key="frame" x="108" y="231" width="49" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="50" y="315" width="42" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ben" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEh-9R-aTu">
-                                <rect key="frame" x="285" y="231" width="30" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="175" y="232" width="42" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tony" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V08-nI-gX7">
-                                <rect key="frame" x="454" y="469" width="37" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="313" y="593" width="42" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aimee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3OB-RV-6g7">
-                                <rect key="frame" x="449" y="124" width="48" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="313" y="182" width="42" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meghan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yp-PB-Oag">
-                                <rect key="frame" x="442" y="231" width="62" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="313" y="315" width="42" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2x-8h-Hgg">
-                                <rect key="frame" x="459" y="353" width="28" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="311" y="440" width="42" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFS-tG-0Qg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ken" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFS-tG-0Qg">
                                 <rect key="frame" x="292" y="124" width="29" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="175" y="100" width="42" height="21"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="143" y="72" width="113" height="60"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="386" y="232" width="29" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1X-4U-qfZ">
-                                <rect key="frame" x="113" y="469" width="39" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Aimee" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3OB-RV-6g7">
+                                <rect key="frame" x="449" y="124" width="48" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="50" y="593" width="42" height="21"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="312" y="154" width="42" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="543" y="232" width="48" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Kristin" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTg-Y3-vtG">
+                                <rect key="frame" x="108" y="231" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="49" y="287" width="42" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="202" y="339" width="49" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ben" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEh-9R-aTu">
+                                <rect key="frame" x="285" y="231" width="30" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="143" y="204" width="105" height="67"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="379" y="339" width="30" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Meghan" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0yp-PB-Oag">
+                                <rect key="frame" x="442" y="231" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="312" y="287" width="42" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="536" y="339" width="62" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Michelle" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkR-xb-ypk">
+                                <rect key="frame" x="268" y="353" width="64" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="143" y="328" width="113" height="73"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="362" y="461" width="64" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Price" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1X-4U-qfZ">
+                                <rect key="frame" x="113" y="469" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="49" y="526" width="42" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="207" y="577" width="39" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tony" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V08-nI-gX7">
+                                <rect key="frame" x="455" y="469" width="37" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="275" y="526" width="79" height="50"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="549" y="577" width="37" height="21"/>
+                                </variation>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hAf-Og-ACG">
+                                <rect key="frame" x="0.0" y="-216" width="320" height="216"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="555" width="400" height="216"/>
+                                </variation>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Brian" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4g-qv-nf8">
+                                <rect key="frame" x="110" y="353" width="40" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="49" y="389" width="42" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="204" y="461" width="40" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Joe" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2x-8h-Hgg">
+                                <rect key="frame" x="459" y="353" width="28" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="312" y="389" width="42" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="553" y="461" width="28" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Julie" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axe-3t-FPU">
+                                <rect key="frame" x="282" y="469" width="36" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="143" y="447" width="105" height="53"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="376" y="577" width="36" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="nkR-xb-ypk" firstAttribute="top" secondItem="lEh-9R-aTu" secondAttribute="bottom" constant="101" id="2w8-eZ-vyk">
-                                <variation key="heightClass=regular-widthClass=compact" constant="122"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="103"/>
                             </constraint>
-                            <constraint firstItem="lEh-9R-aTu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5cg-rb-Vc0"/>
                             <constraint firstItem="nkR-xb-ypk" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" constant="167.5" id="6E7-hi-Oxb">
-                                <variation key="heightClass=regular-widthClass=compact" constant="125"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="127"/>
                             </constraint>
-                            <constraint firstItem="Eim-aq-tYK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-167.5" id="6Ot-AO-OiQ"/>
-                            <constraint firstItem="ZTg-Y3-vtG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-167.5" id="8me-i1-Tpn"/>
                             <constraint firstItem="lEh-9R-aTu" firstAttribute="top" secondItem="BFS-tG-0Qg" secondAttribute="bottom" constant="86" id="BCI-1X-mTH">
                                 <variation key="heightClass=regular-widthClass=compact" constant="111"/>
                             </constraint>
                             <constraint firstItem="L2x-8h-Hgg" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" constant="340.5" id="DC2-Of-H4j">
-                                <variation key="heightClass=regular-widthClass=compact" constant="261"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="263"/>
                             </constraint>
                             <constraint firstItem="Eim-aq-tYK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="EQn-SC-fZV">
                                 <variation key="heightClass=regular-widthClass=compact" constant="118"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="168"/>
                             </constraint>
                             <constraint firstItem="Axe-3t-FPU" firstAttribute="top" secondItem="nkR-xb-ypk" secondAttribute="bottom" constant="95" id="FoY-eh-VCn">
-                                <variation key="heightClass=regular-widthClass=compact" constant="119"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="99"/>
                             </constraint>
-                            <constraint firstItem="BFS-tG-0Qg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GND-pb-Jbb"/>
                             <constraint firstItem="BFS-tG-0Qg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Jpu-iY-ybq">
-                                <variation key="heightClass=regular-widthClass=compact" constant="36"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="8"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="168"/>
                             </constraint>
                             <constraint firstItem="3OB-RV-6g7" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" constant="340.5" id="KHf-xm-O7G">
                                 <variation key="heightClass=regular-widthClass=compact" constant="263"/>
                             </constraint>
-                            <constraint firstItem="3OB-RV-6g7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="170" id="MwE-tD-Qqs"/>
                             <constraint firstItem="ZTg-Y3-vtG" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" id="TGl-gj-p6O"/>
                             <constraint firstItem="ZTg-Y3-vtG" firstAttribute="top" secondItem="Eim-aq-tYK" secondAttribute="bottom" constant="86" id="Xyt-LE-EgY">
                                 <variation key="heightClass=regular-widthClass=compact" constant="112"/>
                             </constraint>
                             <constraint firstItem="BFS-tG-0Qg" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" constant="174" id="am6-Hh-tbq">
-                                <variation key="heightClass=regular-widthClass=compact" constant="125"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="132"/>
                             </constraint>
                             <constraint firstItem="Y1X-4U-qfZ" firstAttribute="top" secondItem="w4g-qv-nf8" secondAttribute="bottom" constant="95" id="b04-aE-fxj">
                                 <variation key="heightClass=regular-widthClass=compact" constant="132"/>
                             </constraint>
-                            <constraint firstItem="Y1X-4U-qfZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-167.5" id="bM2-qP-yid"/>
                             <constraint firstItem="lEh-9R-aTu" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" constant="167.5" id="c9e-Sg-9r5">
-                                <variation key="heightClass=regular-widthClass=compact" constant="125"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="127"/>
                             </constraint>
-                            <constraint firstItem="V08-nI-gX7" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" constant="340" id="cE0-Z3-lJd">
+                            <constraint firstItem="V08-nI-gX7" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" constant="341" id="cE0-Z3-lJd">
                                 <variation key="heightClass=regular-widthClass=compact" constant="263"/>
                             </constraint>
                             <constraint firstItem="w4g-qv-nf8" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" constant="-2.5" id="cgb-P8-WTP">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-2"/>
                             </constraint>
-                            <constraint firstItem="nkR-xb-ypk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eqM-43-3Mg"/>
-                            <constraint firstItem="L2x-8h-Hgg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="180" id="hYR-bu-Z5c"/>
-                            <constraint firstItem="0yp-PB-Oag" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="163" id="kbS-XO-7MP"/>
-                            <constraint firstItem="Axe-3t-FPU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kgN-ko-34N"/>
                             <constraint firstItem="Axe-3t-FPU" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" constant="167.5" id="mvR-1s-LCR">
-                                <variation key="heightClass=regular-widthClass=compact" constant="125"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="127"/>
                             </constraint>
-                            <constraint firstItem="w4g-qv-nf8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-170" id="nh9-mP-kTn"/>
                             <constraint firstItem="3OB-RV-6g7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="pqy-Jy-hNY">
                                 <variation key="heightClass=regular-widthClass=compact" constant="118"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="168"/>
                             </constraint>
                             <constraint firstItem="Y1X-4U-qfZ" firstAttribute="centerX" secondItem="Eim-aq-tYK" secondAttribute="centerX" id="qFd-UY-IOd"/>
                             <constraint firstItem="w4g-qv-nf8" firstAttribute="top" secondItem="ZTg-Y3-vtG" secondAttribute="bottom" constant="101" id="rf7-48-XQT">
@@ -196,16 +230,25 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="263"/>
                             </constraint>
                             <constraint firstItem="V08-nI-gX7" firstAttribute="top" secondItem="L2x-8h-Hgg" secondAttribute="bottom" constant="95" id="w8M-pu-XEi">
-                                <variation key="heightClass=regular-widthClass=compact" constant="132"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="116"/>
                             </constraint>
-                            <constraint firstItem="V08-nI-gX7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="175.5" id="xji-I6-2ad"/>
                             <constraint firstItem="0yp-PB-Oag" firstAttribute="top" secondItem="3OB-RV-6g7" secondAttribute="bottom" constant="86" id="zcX-zd-4A4">
                                 <variation key="heightClass=regular-widthClass=compact" constant="112"/>
                             </constraint>
                             <constraint firstItem="L2x-8h-Hgg" firstAttribute="top" secondItem="0yp-PB-Oag" secondAttribute="bottom" constant="101" id="zhi-cq-Ylm">
-                                <variation key="heightClass=regular-widthClass=compact" constant="104"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="81"/>
                             </constraint>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="hAf-Og-ACG"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="hAf-Og-ACG"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="vKf-tn-UuX"/>
                     <connections>
