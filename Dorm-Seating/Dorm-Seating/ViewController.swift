@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var dateRange: DateRange!
     @IBOutlet weak var adamTable: UILabel!
     @IBOutlet weak var kenTable: UILabel!
     @IBOutlet weak var aimeeTable: UILabel!
@@ -22,6 +23,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var priceTable: UILabel!
     @IBOutlet weak var julieTable: UILabel!
     @IBOutlet weak var tonyTable: UILabel!
+    
+    @IBOutlet weak var datePicker: UIPickerView!
     
     var students: [Student] = []
     var tables: [Table] = []
@@ -70,7 +73,7 @@ class ViewController: UIViewController {
                     selector.clearTables()
                     x += 1
                 }
-                                
+                
                 
                 print("\(students.count)")
                 self.adamTable.text = adam.getArrangement(0)
@@ -81,6 +84,10 @@ class ViewController: UIViewController {
                 self.meghanTable.text = meghan.getArrangement(0)
                 self.brianTable.text = brian.getArrangement(0)
                 self.michelleTable.text = michelle.getArrangement(0)
+                self.joeTable.text = joe.getArrangement(0)
+                self.priceTable.text = price.getArrangement(0)
+                self.julieTable.text = julie.getArrangement(0)
+                self.tonyTable.text = tony.getArrangement(0)
                 
                 
                 
@@ -102,6 +109,11 @@ class ViewController: UIViewController {
     }
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        let dateNumber = dateRange.values[row]
+        return "\(dateNumber)"
     }
     
     override func viewWillAppear(animated: Bool) {

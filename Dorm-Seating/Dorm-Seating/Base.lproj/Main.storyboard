@@ -256,6 +256,8 @@
                         <outlet property="aimeeTable" destination="3OB-RV-6g7" id="6Bo-cl-9hR"/>
                         <outlet property="benTable" destination="lEh-9R-aTu" id="Rxs-sZ-yEn"/>
                         <outlet property="brianTable" destination="w4g-qv-nf8" id="b5h-ZR-XyA"/>
+                        <outlet property="datePicker" destination="hAf-Og-ACG" id="nh4-cR-tRQ"/>
+                        <outlet property="dateRange" destination="3eX-as-6ef" id="xoE-C5-J5q"/>
                         <outlet property="joeTable" destination="L2x-8h-Hgg" id="TyW-Of-3m3"/>
                         <outlet property="julieTable" destination="Axe-3t-FPU" id="Ghy-zG-3Uy"/>
                         <outlet property="kenTable" destination="BFS-tG-0Qg" id="Kgz-nj-brZ"/>
@@ -267,6 +269,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="3eX-as-6ef"/>
             </objects>
             <point key="canvasLocation" x="1134" y="999"/>
         </scene>
